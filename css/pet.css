@@ -1,0 +1,150 @@
+/* PET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+/* HEADER */
+header{
+    background: #ffd739;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+header .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+header li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.container-pet{
+    padding-top: 100px;
+}
+.form-pet {
+    background:url(../img/malu.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.form-title{
+    font-weight: normal;
+    font-family: 'Segoe UI',  Verdana, sans-serif;
+    color: #ffd739;
+    text-align: center;
+    padding: 5px 0;
+    /* text-transform: uppercase; */
+ }
+ .form {
+     background: rgba(0,0,0,.5);
+     width: 90%;
+     max-width: 800px;
+     margin: auto;
+     padding: 5px 10px;
+     padding-bottom: 20px;
+     border-radius: 5px;
+ }
+ .form-input, .form-textarea {
+     background: rgba(0,0,0,.5);
+     border: none;
+     outline: none;
+     border-bottom: 1px solid #ffd739;
+     border-radius: 2px;
+     padding: 8px;
+     margin-bottom: 10px;
+     font-size: 15px;
+    width: 32%;
+
+ }
+ .personal-info {
+
+    width: 30%;
+    float: left;
+    margin: auto;
+    padding-top: 10px;
+    
+ }
+ .personal-info p {
+     padding-bottom: 10px;
+     font-weight: bold;
+ }
+ .personal-info label {
+     margin-right: 2px;
+ }
+ .form-textarea {
+     resize: vertical;
+     max-height: 100px;
+     min-height: 50px;
+     width: 100%;
+ }
+.custom-file {
+    padding-bottom: 20px;
+}
+.form-file {
+    cursor: pointer;
+    color: #ffd739;
+}
+ .btn-submit {
+     width: 100%;
+     background: #ffd739;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     padding: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     transition: all .5s ease;
+     font-weight: bold;
+     
+     
+ }
+ .btn-submit:hover {
+    background: #e3b04b;
+   
+   }
+      /* RESPONSIVE LAPTOP */
+   @media screen and (max-width:768px){
+    .container-pet{
+        padding-top: 10px;
+        height: 100vh;
+    }
+    .form-input {
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+       width: 48%;
+   
+    }
+    
+   }
+     /* RESPONSIVE PHONE */
+
+   @media screen and (max-width:360px){
+    .container-pet{
+        padding-top: 0;
+        height: 100vh;
+    }
+       .form-input {
+           width: 90%;
+           margin: auto;
+       }
+       .personal-info {
+
+        width: 90%;
+        float: left;
+        margin: auto;
+        padding-top: 5px;
+        
+     }
+   }

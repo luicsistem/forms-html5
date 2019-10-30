@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+            background: #608ca8;
+        }
+        /* HEADER */
+header{
+    background: #5edfff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+header .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+header li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .form-register {
+            width: 90%;
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            border-radius: 5px;
+            
+        }
+        .form-title {
+            background: #5555cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: 100;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom: 5px solid #ff0000;
+        }
+        .container-input {
+            padding: 10px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 15px;
+
+        }
+        .input-48 {
+            width:48% ;
+        }
+        .input-100{
+            width:100% ;
+        }
+        .btn-send {
+            background: #eb2838;
+            color: #fff;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            width: 50%;
+            margin: auto;
+            cursor: pointer;
+        }
+        .btn-send:active {
+            transform: scale(1.1);
+        }
+        .form-link {
+            width: 100%;
+            font-size: 13px;
+            margin: 7px;
+            text-align: center;
+        
+        }
+
+    </style>
+</head>
+
+<body>
+
+        <header class="header">
+                <a href="/" class="logo">log ;)</a>
+                <!-- nav contiene enlaces de navegacion  -->
+                <nav class="nav">
+                  <!-- listas desordenadas  -->
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pet.html" target="_blank" class="t-compara">Pet Form</a></li>
+                    <li><a href="#register.html">Register Form</a></li>          
+                  </ul>
+                </nav>
+              </header>
+    <h1>Signer Register Form</h1>
+    <form action="#" method="post" class="form-register">
+        <h2 class="form-title" >CREATE AN ACCOUNT</h2>
+        <div class="container-input">
+            <input type="text" placeholder="Name" class="input-48" required>
+            <input type="text" placeholder="Last Name" class="input-48" required>
+            <input type="email" placeholder="Email Address" class="input-100" required>
+            <input type="text" placeholder="User Name" class="input-48" required>
+            <input type="password" placeholder="password" class="input-48" required>
+            <input type="tel" placeholder="Phone Number" class="input-100" required>
+            <input type="submit" value="Sign me up" class="btn-send">
+            <p class="form-link">Already have an account <a href="#">Login Here</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>

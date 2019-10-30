@@ -3,11 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
+header{
+    background: #5edfff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+header .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+header li {
+    margin-right: 20px;
+    font-size: 20px;
+}
 .contact {
     background: url(../img/startup-photos.jpg);
     background-size: cover;
     /* height: 300px; */
-    height: 60vh;
+    height: 100vh;
 }
 
  .form-title{
@@ -22,7 +47,7 @@ span {
     color: #fff;
 }
 .container{
-    padding-top: 10px;
+    padding-top: 100px;
 }
   .form {
     background: rgba(0, 0, 0, .4);
@@ -76,4 +101,24 @@ color: #fff;
 .btn-submit:hover {
  background: #8186d5;
 
+}
+
+/* FOOTER */
+footer {
+    background:#5edfff;
+    padding: 10px ;
+}
+footer ul {
+    list-style: none;
+}
+address {
+    color: #fff;
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+footer p {
+    text-decoration: none;
+    text-align: center;
 }

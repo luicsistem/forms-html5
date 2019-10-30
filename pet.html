@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Form</title>
+    <link rel="stylesheet" href="./css/pet.css">
+</head>
+
+<body>
+        <header class="header">
+                <a href="/" class="logo">log ;)</a>
+                <!-- nav contiene enlaces de navegacion  -->
+                <nav class="nav">
+                  <!-- listas desordenadas  -->
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pet.html" target="_blank" class="t-compara">Pet Form</a></li>
+                    <li><a href="register.html">Register Form</a></li>
+                  </ul>
+           </nav>
+              </header>
+    <section class="form-pet">
+        <div class="container-pet">
+                <form action="" class="form">
+                        <div class="form-header">
+                            <h1 class="form-title">P<span>et </span>Found Form</h1>
+                        </div>
+   
+                        <input type="text"  class="form-input" required  placeholder=" Name">
+                        <input type="email"  class="form-input"required placeholder=" Email " >
+                        <input type="text"  class="form-input"required placeholder=" Address " >
+                        <input type="tel" class="form-input" placeholder="Phone" required>
+                        <input type="text" class="form-input" placeholder="City" required>
+                        <input type="text" class="form-input" placeholder="State" required>
+                        <div class="personal-info">
+                        <p>Gender</p>
+                        <label>
+                        <input type="radio" name="gender" value="female"> Female
+                        </label>
+                        <label>
+                        <input type="radio" name="gender" value="male"> Male
+                        </label>
+                        </div>
+                        <div class="personal-info">
+                                <p>Pet</p>
+                                <label for="">
+                                    <input type="radio" name="pet" id="">Cat
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="pet" id="">Dog
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="pet" id="">Other
+                                </label>
+                            </div>
+                            <div class="personal-info">
+                                <p>Identification</p>
+                                <label for="">
+                                    <input type="radio" name="ident" >Tattooed
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="ident" >Microchipped
+                                </label>
+                                <label for="">
+                                        <input type="radio" name="ident" id="">Other
+                                    </label>
+                            </div>
+                     
+                        <textarea  id="message" class="form-textarea" placeholder=" Any message ..."></textarea>
+                        <div class="custom-file">
+                                Select a file: <input type="file" name="myFile" class="form-file">
+                             </div>
+                        <input type="submit" class="btn-submit" value="Submit" >
+                    </form>
+
+        </div>
+
+        
+</body>
+
+</html>
