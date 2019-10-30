@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    background: url(../img/startup-photos.jpg);
+    background-size: cover;
+    /* height: 300px; */
+    height: 60vh;
+}
+
+ .form-title{
+   font-weight: normal;
+   font-family: 'Segoe UI',  Verdana, sans-serif;
+   color: #5edfff;
+   text-align: center;
+   padding: 5px 0;
+   /* text-transform: uppercase; */
+}
+span {
+    color: #fff;
+}
+.container{
+    padding-top: 10px;
+}
+  .form {
+    background: rgba(0, 0, 0, .4);
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px 35px;
+    /* margin-top: 30px; */
+    padding-bottom: 20px;
+    border-radius: 3px;
+
+}
+ .form-label {
+    display: block;
+    color: #5edfff;
+    font-size: 17px;
+    font-family:  Roboto,  Cantarell,  sans-serif;
+    position: relative;
+}
+.form-input, .form-textarea {
+background: rgba(0,0,0,.4);
+border: none;
+outline: none;
+border-bottom: 1px solid #5edfff;
+border-radius: 2px;
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+font-size: 14px;
+color: #fff;
+
+
+}
+.form-textarea {
+    resize: vertical;
+    max-height: 100px;
+    min-height: 40px;
+}
+.btn-submit {
+ width: 100%; 
+ outline: none;  
+ background: #5edfff;
+ font-size: 16px;
+ color: #fff;
+ border: none;
+ padding: 5px;
+ border-radius: 3px;
+ cursor: pointer;
+ transition: all .5s ease;
+}
+.btn-submit:hover {
+ background: #8186d5;
+
+}
